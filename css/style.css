@@ -1,0 +1,78 @@
+:root{
+--primary-brand-color:#4D5AE5;
+--dark-brand-color:#2E2F42;
+--body-text-color:#434455;
+--background-body-color:#E5E5E5;
+--header-background-color:#FFFFFF;
+--light-text-color:#FFFFFF;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+text-decoration: none;
+font-style: normal;
+color: currentColor;
+}
+
+body{
+font-family:"Roboto", sans-serif;
+font-weight: 400;
+font-size:16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(--body-text-color);
+background-color: var(--background-body-color);
+}
+
+.header-style{
+    background-color:var(--header-background-color);
+}
+
+.logo-web{
+color:var(--primary-brand-color);
+font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.333;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-studio{
+    color: var(--dark-brand-color);
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.333;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+.body-medium{
+    font-weight: 500;
+}
+
+.hero-section{
+    background-color: var(--dark-brand-color);
+}
+.hero-title{
+    font-weight: 700;
+    color: var(--light-text-color);
+    font-size: 56px;
+    line-height: 1.071;
+    text-align: center;
+}
+.hero-button{
+    background-color: var(--primary-brand-color);
+    letter-spacing: 0.04;
+    font-weight: 500;
+    color:var(--light-text-color)
+}
+.card-titles{
+color:var(--dark-brand-color);
+font-weight: 500;
+font-size:20px;
+line-height: 1.2;
+}
