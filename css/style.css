@@ -128,5 +128,10 @@ line-height: 1.2;
     color:var(--primary-brand-color);
     background-color: var(--light-section-color);
     border: 1px solid var(--buttons-boarders-color);
-    
+    border-radius: 4px;
+}
+
+.section-buttons:hover, .section-buttons:focus{
+    color:var(--light-text-color);
+    background-color: var(--active-color);
 }
