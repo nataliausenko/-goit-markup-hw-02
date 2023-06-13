@@ -1,11 +1,14 @@
 :root{
 --primary-brand-color:#4D5AE5;
+--primary-brand-color-text: #4D5AE5;
 --dark-brand-color:#2E2F42;
+--dark-brand-color-text: #2E2F42;
 --body-text-color:#434455;
 --background-body-color:#E5E5E5;
 --header-background-color:#FFFFFF;
 --light-text-color:#FFFFFF;
 --light-section-color:#F4F4FD; 
+--light-footer-text: #F4F4FD;
 --logo-footer-color:#F4F4FD;
 --active-color:#404BBF;
 --buttons-boarders-color:#E7E9FC;
@@ -36,7 +39,7 @@ background-color: var(--background-body-color);
 }
 
 .logo-web{
-color:var(--primary-brand-color);
+color:var(--primary-brand-color-text);
 font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -45,7 +48,7 @@ font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
 }
 .logo-studio{
-    color: var(--dark-brand-color);
+    color:var(--dark-brand-color-text);
         font-family: 'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
@@ -60,7 +63,7 @@ font-family: 'Raleway', sans-serif;
 }
 .nav-links{
     font-weight: 500;
-    color: var(--dark-brand-color);
+    color: var(--dark-brand-color-text);
 }
 .nav-links:hover, .nav-links:focus{
     color:var(--active-color);
@@ -94,7 +97,7 @@ background-color: var(--active-color);
 }
 
 .card-titles{
-color:var(--dark-brand-color);
+color:var(--dark-brand-color-text);
 font-weight: 500;
 font-size:20px;
 line-height: 1.2;
@@ -121,7 +124,7 @@ line-height: 1.2;
 
 .footer{
     background-color: var(--dark-brand-color);
-    color: var(--light-section-color);
+    color: var(--light-footer-text);
 }
 
 .section-buttons{
