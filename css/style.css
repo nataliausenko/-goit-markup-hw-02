@@ -4,7 +4,7 @@
 --dark-brand-color:#2E2F42;
 --dark-brand-color-text: #2E2F42;
 --body-text-color:#434455;
---background-body-color:#E5E5E5;
+--background-body-color:#FFFFFF;
 --header-background-color:#FFFFFF;
 --light-text-color:#FFFFFF;
 --light-section-color:#F4F4FD; 
@@ -130,8 +130,6 @@ line-height: 1.2;
 .section-buttons{
     color:var(--primary-brand-color);
     background-color: var(--light-section-color);
-    border: 1px solid var(--buttons-boarders-color);
-    border-radius: 4px;
 }
 
 .section-buttons:hover, .section-buttons:focus{
