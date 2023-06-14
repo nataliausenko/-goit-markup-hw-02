@@ -12,6 +12,8 @@
 --logo-footer-color:#F4F4FD;
 --active-color:#404BBF;
 --buttons-boarders-color:#E7E9FC;
+--background-card-color:#FFFFFF;
+
 }
 
 ul{
@@ -122,6 +124,9 @@ letter-spacing: 0.02em;
     color:var(--dark-brand-color-text);
 }
 
+.card{
+    background-color: var(--background-card-color);
+}
 .card-titles.team{
     text-align: center;
 }
