@@ -71,10 +71,13 @@ font-family: 'Raleway', sans-serif;
     color:var(--active-color);
 }
 
-.header-contacts{
+.adress{
 font-style: normal;
 }
-.header-contacts:hover, .header-contacts:focus{
+.header-contacts{
+    color:currentColor; 
+}
+.header-contacts:hover,.header-contacts:focus{
     color:var(--active-color);
 }
 .hero-section{
