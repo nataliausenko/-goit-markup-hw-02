@@ -69,6 +69,9 @@ font-family: 'Raleway', sans-serif;
     color:var(--active-color);
 }
 
+.header-contacts{
+font-style: normal;
+}
 .header-contacts:hover, .header-contacts:focus{
     color:var(--active-color);
 }
@@ -106,6 +109,7 @@ color:var(--dark-brand-color-text);
 font-weight: 500;
 font-size:20px;
 line-height: 1.2;
+letter-spacing: 0.02em;
 }
 
 .section-titles{
