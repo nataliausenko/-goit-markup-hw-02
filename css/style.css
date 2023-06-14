@@ -115,9 +115,11 @@ letter-spacing: 0.02em;
 .section-titles{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.111;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:var(--dark-brand-color-text);
 }
 
 .card-titles.team{
@@ -134,12 +136,19 @@ letter-spacing: 0.02em;
 
 .footer{
     background-color: var(--dark-brand-color);
-    color: var(--light-footer-text);
 }
-
+.footer-text{
+color: var(--light-footer-text);
+}
 .section-buttons{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color:var(--primary-brand-color);
     background-color: var(--light-section-color);
+    cursor: pointer;
 }
 
 .section-buttons:hover, .section-buttons:focus{
