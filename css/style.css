@@ -13,9 +13,8 @@
 --active-color:#404BBF;
 --buttons-boarders-color:#E7E9FC;
 --background-card-color:#FFFFFF;
-
 }
-
+/* Reset */
 ul{
     list-style: none;
 }
@@ -31,6 +30,7 @@ color: currentColor;
 .link {
     text-decoration: none;
 }
+/* Common styles */
 body{
 font-family:"Roboto", sans-serif;
 font-weight: 400;
@@ -40,7 +40,7 @@ letter-spacing: 0.02em;
 color:var(--body-text-color);
 background-color: var(--background-body-color);
 }
-
+/* header styles */
 .header-style{
     background-color:var(--header-background-color);
 }
@@ -80,6 +80,7 @@ font-style: normal;
 .header-contacts:hover,.header-contacts:focus{
     color:var(--active-color);
 }
+/* hero section */
 .hero-section{
     background-color: var(--dark-brand-color);
 }
@@ -108,15 +109,7 @@ font-style: normal;
 .hero-button:hover, .hero-button:focus{
 background-color: var(--active-color);
 }
-
-.card-titles{
-color:var(--dark-brand-color-text);
-font-weight: 500;
-font-size:20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-}
-
+/* section styles */
 .section-titles{
     font-weight: 700;
     font-size: 36px;
@@ -126,28 +119,30 @@ letter-spacing: 0.02em;
     text-transform: capitalize;
     color:var(--dark-brand-color-text);
 }
-
+.card-titles{
+color:var(--dark-brand-color-text);
+font-weight: 500;
+font-size:20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
 .card{
     background-color: var(--background-card-color);
 }
 .card-titles.team{
     text-align: center;
 }
-
-.card-description{
+.card-description.team {
     text-align: center;
+}
+.card-description{
+
 }
 
 .section-team{
     background-color: var(--light-section-color);
 }
-
-.footer{
-    background-color: var(--dark-brand-color);
-}
-.footer-text{
-color: var(--light-footer-text);
-}
+/* section buttons */
 .section-buttons{
     font-family: "Roboto",sans-serif;
     font-weight: 500;
@@ -162,4 +157,12 @@ color: var(--light-footer-text);
 .section-buttons:hover, .section-buttons:focus{
     color:var(--light-text-color);
     background-color: var(--active-color);
+}
+/* footer */
+.footer {
+    background-color: var(--dark-brand-color);
+}
+
+.footer-text {
+    color: var(--light-footer-text);
 }
